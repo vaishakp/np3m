@@ -1,0 +1,13 @@
+name: np3m
+
+dependencies:
+  - python
+  - pycbc
+  - lalsuite
+  - bilby
+  - nestle
+  - gwpopulation
+  - matplotlib
+
+channels:
+  - conda-forge

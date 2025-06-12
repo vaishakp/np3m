@@ -1,0 +1,8 @@
+numpy
+scipy
+pycbc
+lalsuite
+bilby
+nestle
+matplotlib
+gwpopulation
