@@ -8,6 +8,7 @@ dependencies:
   - nestle
   - gwpopulation
   - matplotlib
+  - jupyterlab
 
 channels:
   - conda-forge

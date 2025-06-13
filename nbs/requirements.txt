@@ -6,3 +6,4 @@ bilby
 nestle
 matplotlib
 gwpopulation
+jupyterlab
