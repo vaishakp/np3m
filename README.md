@@ -31,4 +31,11 @@
 1. Execute the approriate cell to install the requisite packages.
 
 
+## References
+1. [pycbc](https://pycbc.org/) for generating waveforms, bayesian inference PE on GW events.
+1. [bilby](https://github.com/bilby-dev/bilby) A multi sampler equipped Bayesian PE tool, primarily developed for GW inference.
+1. [gwpopupation](https://github.com/ColmTalbot/gwpopulation) A python package to carry out Bayesian Hierarchical inference to infer population properties of CBC events.
+1. [dynesty](https://dynesty.readthedocs.io/en/v2.1.5/) A dynamic nested monte carlo sampler.
+
+
 
