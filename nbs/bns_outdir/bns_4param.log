@@ -1,0 +1,110 @@
+12:12 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_neutron_star
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_neutron_star_parameters
+12:12 INFO    : Injected signal in H1:
+12:12 INFO    :   optimal SNR = 34.44
+12:12 INFO    :   matched filter SNR = 33.89-0.55j
+12:12 INFO    :   mass_1 = 1.5
+12:12 INFO    :   mass_2 = 1.3
+12:12 INFO    :   chi_1 = 0.02
+12:12 INFO    :   chi_2 = 0.02
+12:12 INFO    :   luminosity_distance = 50.0
+12:12 INFO    :   theta_jn = 0.4
+12:12 INFO    :   psi = 2.659
+12:12 INFO    :   phase = 1.3
+12:12 INFO    :   geocent_time = 1126259642.413
+12:12 INFO    :   ra = 1.375
+12:12 INFO    :   dec = -1.2108
+12:12 INFO    :   lambda_1 = 545
+12:12 INFO    :   lambda_2 = 1346
+12:12 INFO    :   fiducial = 1
+12:12 INFO    : Injected signal in L1:
+12:12 INFO    :   optimal SNR = 27.88
+12:12 INFO    :   matched filter SNR = 27.90+0.23j
+12:12 INFO    :   mass_1 = 1.5
+12:12 INFO    :   mass_2 = 1.3
+12:12 INFO    :   chi_1 = 0.02
+12:12 INFO    :   chi_2 = 0.02
+12:12 INFO    :   luminosity_distance = 50.0
+12:12 INFO    :   theta_jn = 0.4
+12:12 INFO    :   psi = 2.659
+12:12 INFO    :   phase = 1.3
+12:12 INFO    :   geocent_time = 1126259642.413
+12:12 INFO    :   ra = 1.375
+12:12 INFO    :   dec = -1.2108
+12:12 INFO    :   lambda_1 = 545
+12:12 INFO    :   lambda_2 = 1346
+12:12 INFO    :   fiducial = 1
+12:12 INFO    : Injected signal in V1:
+12:12 INFO    :   optimal SNR = 29.56
+12:12 INFO    :   matched filter SNR = 29.93-0.22j
+12:12 INFO    :   mass_1 = 1.5
+12:12 INFO    :   mass_2 = 1.3
+12:12 INFO    :   chi_1 = 0.02
+12:12 INFO    :   chi_2 = 0.02
+12:12 INFO    :   luminosity_distance = 50.0
+12:12 INFO    :   theta_jn = 0.4
+12:12 INFO    :   psi = 2.659
+12:12 INFO    :   phase = 1.3
+12:12 INFO    :   geocent_time = 1126259642.413
+12:12 INFO    :   ra = 1.375
+12:12 INFO    :   dec = -1.2108
+12:12 INFO    :   lambda_1 = 545
+12:12 INFO    :   lambda_2 = 1346
+12:12 INFO    :   fiducial = 1
+12:12 INFO    : No prior given, using default BNS priors in /home/vaishakprasad/soft/anaconda/envs/igwn-py310/lib/python3.10/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+12:12 INFO    : Running for label 'bns_4parama', output will be saved to 'bns_outdir'
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+12:12 INFO    : Using lal version 7.6.1
+12:12 INFO    : Using lal git version Branch: None;Tag: lal-v7.6.1;Id: 31af23159ed7c6557180f58ad3f39a06e5a08731;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed
+12:12 INFO    : Using lalsimulation version 6.1.0
+12:12 INFO    : Using lalsimulation git version Branch: None;Tag: lalsimulation-v6.1.0;Id: 8041734408377ca999821f7e372e2a02e9226e6b;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed
+12:12 INFO    : Analysis priors:
+12:12 INFO    : chirp_mass=Gaussian(mu=1.215, sigma=0.1, name='chirp_mass', latex_label='$\\mathcal{M}$', unit='$M_{\\odot}$', boundary=None)
+12:12 INFO    : symmetric_mass_ratio=Uniform(minimum=0.1, maximum=0.25, name='symmetric_mass_ratio', latex_label='$\\eta$', unit=None, boundary=None)
+12:12 INFO    : lambda_tilde=Uniform(minimum=0, maximum=5000, name='lambda_tilde', latex_label='$\\tilde{\\Lambda}$', unit=None, boundary=None)
+12:12 INFO    : delta_lambda_tilde=Uniform(minimum=-500, maximum=1000, name='delta_lambda_tilde', latex_label='$\\delta\\tilde{\\Lambda}$', unit=None, boundary=None)
+12:12 INFO    : mass_1=Constraint(minimum=0.5, maximum=5, name='mass_1', latex_label='$m_1$', unit=None)
+12:12 INFO    : mass_2=Constraint(minimum=0.5, maximum=5, name='mass_2', latex_label='$m_2$', unit=None)
+12:12 INFO    : lambda_1=Constraint(minimum=0, maximum=10000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None)
+12:12 INFO    : lambda_2=Constraint(minimum=0, maximum=10000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None)
+12:12 INFO    : luminosity_distance=50.0
+12:12 INFO    : dec=-1.2108
+12:12 INFO    : ra=1.375
+12:12 INFO    : theta_jn=0.4
+12:12 INFO    : psi=2.659
+12:12 INFO    : phase=1.3
+12:12 INFO    : chi_1=0.02
+12:12 INFO    : chi_2=0.02
+12:12 INFO    : geocent_time=1126259642.413
+12:12 INFO    : Analysis likelihood class: <class 'bilby.gw.likelihood.base.GravitationalWaveTransient'>
+12:12 INFO    : Analysis likelihood noise evidence: -95975.55352101159
+12:12 INFO    : Single likelihood evaluation took 1.934e-02 s
+12:12 INFO    : Using sampler Nestle with kwargs {'method': 'multi', 'npoints': 100, 'update_interval': None, 'npdim': None, 'maxiter': None, 'maxcall': None, 'dlogz': None, 'decline_factor': None, 'rstate': None, 'callback': <function print_progress at 0x7f7b7cf443a0>, 'steps': 20, 'enlarge': 1.2}
+12:16 INFO    : Sampling time: 0:04:02.388039
+12:16 INFO    : Computing per-detector log likelihoods.
+12:16 INFO    : Generating sky frame parameters.
+12:16 INFO    : Computing SNRs for every sample.
+12:17 INFO    : Summary of results:
+nsamples: 2594
+ln_noise_evidence: -95975.554
+ln_evidence: -94587.069 +/-  0.477
+ln_bayes_factor: 1388.485 +/-  0.477
+

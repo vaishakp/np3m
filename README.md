@@ -4,7 +4,7 @@
 ## Plan
 
 1. Demonstration of Nested Sampling
-1. Basic straight line fit and model comparison
+1. Basic straight line fit and model comparison (or your own likelihood)
 1. BBH 4 parameter tutorial
 1. BNS 4 parameter tutorial with tidal deformabilities
 1. Hierarchical inference of mass distribution using GWTC-3 events
